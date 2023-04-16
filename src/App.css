@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+}
+.title{
+  margin-top:4px;
+  color : white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+  background-color: black;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 0;
+  padding: 0 1rem;
+  height: 45px;
+}
+.navbar ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navbar a {
+  color: white;
+  font-size: 25px;
+}
+.button{
+  border: 1px soli red;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  font-weight: 700px;
+  height: 41px;
+  cursor:pointer;
+}
+.list{
+  color:blue;
+}
+.my-3{
+  border:1px solid black;
+  border-radius: 2px;
+  gap: 1px;
+}
+
+.show{
+  color: blue;
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif;
+  margin-left:5px;
+}
+.hide{
+  display:none;
+}
+.showtitle{
+  color:black;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left:5px;
+}
+.hidetitle{
+  display:none;
+}
+.show-card-body{
+  margin-top: 5px;
+  background-color: lightgray;
+  box-shadow: 0.8rem 0.8em 1rem black;
+}
+.hide-card-body{
+  display:none;
+}
+.show-card{
+  background-color: white;
+  border:2px solid black;
+  border-radius:3px;
+}
+.hide-card{
+  display: none;
+}
+.none{
+  display:none;
+}
+.ml-5{
+  margin-left:4px;
+  margin-bottom: 4px;
+}
